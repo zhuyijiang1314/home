@@ -74,28 +74,28 @@ body {
 
 .radial {
   position: absolute;
-  filter: blur(30px);
+  filter: blur(25px);
   opacity: 0.9;
 }
 
 .one {
   border-radius: 100%;
-  width: 80%;
+  width: 90%;
   height: 80%;
-  background-color: #71DE54;
-  left:-1%;
-  top:-2%;
+  background-color: #3BD334;
+  left:1%;
+  top:2%;
   animation: move-one 6s linear infinite;
   transform:rotate(0) translate(100px) rotate(0); 
 }
 
 .two {
   border-radius: 100%;
-  width: 90%;
-  height: 90%;
-  background-color: #49D642;
-  bottom:-3%;
-  left:-8%; 
+  width: 70%;
+  height: 60%;
+  background-color: #45DD42;
+  bottom:3%;
+  left:8%; 
   animation: move-two 10s linear infinite;
   transform:rotate(0) translate(100px) rotate(0);
 }
@@ -103,12 +103,12 @@ body {
 .three {
   border-radius: 100%;
   width: 80%;
-  height: 80%;
+  height: 70%;
   /* background-color: #BFE35F; */
   background-color: #78DD42;
 
-  bottom:-2%;
-  right:-10%;
+  bottom:2%;
+  right:10%;
   animation: move-three 7s linear infinite;
   transform:rotate(0) translate(100px) rotate(0);
 }
