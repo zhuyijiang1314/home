@@ -82,10 +82,10 @@ body {
   border-radius: 100%;
   width: 80%;
   height: 80%;
-  background-color: #9AFA6D;
+  background-color: #71DE54;
   left:-1%;
   top:-2%;
-  animation: move-one 5s linear infinite;
+  animation: move-one 6s linear infinite;
   transform:rotate(0) translate(100px) rotate(0); 
 }
 
@@ -105,7 +105,7 @@ body {
   width: 80%;
   height: 80%;
   /* background-color: #BFE35F; */
-  background-color: #A2F063;
+  background-color: #78DD42;
 
   bottom:-2%;
   right:-10%;
